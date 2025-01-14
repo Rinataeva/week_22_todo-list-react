@@ -1,0 +1,17 @@
+.news__content{
+    display: flex;
+}
+.news__content ul{
+    list-style-type: none;
+}
+.news__content li{
+    margin-bottom: 1rem;
+}
+.news__content a{
+    text-decoration: none;
+    color: #6A5873;
+    transition: color 0.3s ease;
+}
+.news__content a:hover{
+    color: #B26E81;
+}

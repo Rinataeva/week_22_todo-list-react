@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.4rem; 
+  transition: background-color 0.4s ease;
+}
+
+.item:hover {
+  background-color: #d8b0ba;
+}
+
+.checkbox {
+  width: 1.25rem; 
+  height: 1.25rem; 
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.delete_button {
+  background-color: transparent;
+  color: #6A5873; 
+  border: none;
+  font-size: 1rem; 
+  cursor: pointer;
+  transition: color 0.3s ease;
+margin-left: 0.4rem;
+}
+
+.button:hover {
+  color: #3B5875;
+}
+
+.item input[type="checkbox"]:checked + .label {
+  text-decoration: line-through;
+  color: #3B5875;
+}
+
+/* 
+ul li input[type="checkbox"]:checked + .label {
+  text-decoration: line-through;
+  color: #3B5875;
+} */
