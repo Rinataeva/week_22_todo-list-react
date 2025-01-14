@@ -19,22 +19,22 @@ export function LoginPage() {
   return (
     <main className={styles.login__content}>
       <h1>Please log in</h1>
-      <form onSubmit={handleSubmit} className={styles.login__form}>
+      <form onSubmit={handleSubmit} className={styles.form}>
         <div className={styles.form__inputGroup}>
-          <label htmlFor="userName" className={styles.form__label}>
+          <label htmlFor="userName" className={styles.label}>
             User name
           </label>
           <input
             type="text"
             id="userName"
-            className={styles.form__input}
+            className={styles.input}
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
             placeholder="Enter user name"
           />
         </div>
 
-        <div className={styles.inputGroup}>
+        <div className={styles.form__inputGroup}>
           {" "}
           <label htmlFor="password" className={styles.label}>
             Password
