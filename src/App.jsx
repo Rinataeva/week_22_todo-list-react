@@ -3,7 +3,7 @@ import { Content } from "./components/Content";
 import { Navigation } from "./components/Navigation";
 import { LoginPage } from "./pages/LoginPage";
 import { News } from "./pages/News";
-import { NewsPage } from "./pages/NewsPage";
+import { NewsPage } from "./pages/News/NewsPage";
 import { Missing } from "./components/Missing";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
